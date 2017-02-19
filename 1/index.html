@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WeekDev Challenge 1 by Mateusz Dzieżok</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <meta charset="utf-8">
+</head>
+<body>
+<div class="container">
+
+<img src="img/logo-top.png" class="logo">
+
+
+<div class="col">
+
+<!--     Register Form   -->
+
+<div class="form-box">
+    <h1>Register Form</h1>
+    <div class="form-border">
+        <form>
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-user.png" class="icon">
+                </div>
+                <div class="input-right">
+                    <input type="text" name="nickname-register" id="nickname-register" placeholder="Username" required>
+                </div>
+            </div>
+
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-pass.png" class="icon">
+                </div>
+                <div class="input-right">
+                    <input type="password" name="password-register" id="password-register" placeholder="Password" required>
+                </div>
+            </div>
+            <div class="input-text line">
+                <div class="input-left">
+                  <img src="img/icon-pass.png" class="icon">
+               </div>
+                <div class="input-right">
+                    <input type="password" name="password2-register" id="password2-register" placeholder="Confirm Password" required>
+                </div>
+            </div>
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-mail.png" class="icon">
+                </div>
+                <div class="input-right">
+                     <input type="email" name="email-register" id="email-register" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-location.png" class="icon">
+                </div>
+                <div class="input-right">
+                     <input type="text" name="location-register" id="location-register" placeholder="Your Location">
+                </div>
+            </div>
+
+            <input type="checkbox" class="checkbox" name="read-register" id="read-register">
+                <label for="read">
+                    <div class="checkbox-div">
+                        <div class="checkbox-inner">
+                        </div>
+                    </div>
+                    I have read and accept the terms of use.
+                </label>
+
+            <button type="submit">Sign up</button>
+
+        </form>
+    </div>
+</div>
+
+<!--   Send Email     -->
+
+<div class="form-box">
+    <h1>Send Email</h1>
+    <div class="form-border">
+        <form>
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-user.png" class="icon">
+                </div>
+                <div class="input-right">
+                    <input type="text" name="name-sendEmail" id="name-sendEmail" placeholder="Username" required>
+                </div>
+            </div>
+
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-mail.png" class="icon">
+                </div>
+                <div class="input-right">
+                     <input type="Email" name="email-sendemail" id="email-sendEmail" placeholder="Email" required>
+                </div>
+            </div>
+
+            <div class="input-text input-text-big">
+
+                     <textarea class="input-text-big" name="message-sendemail" id="message-sendEmail" placeholder="Type yout message ..." required></textarea>
+
+            </div>
+
+            <input type="checkbox" class="checkbox" name="sendCopy-sendemail" id="sendCopy-sendemail">
+                <label for="email">
+                    <div class="checkbox-div">
+                        <div class="checkbox-inner">
+                        </div>
+                    </div>
+                    Send a copy to my Email
+                </label>
+
+            <button type="submit">Send Email</button>
+
+        </form>
+    </div>
+</div>
+
+
+</div>
+<div class="col">
+
+<!--     Sign In Form   -->
+
+
+<div class="form-box">
+    <h1>Sign In From</h1>
+    <div class="form-border">
+        <form>
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-user.png" class="icon">
+                </div>
+                <div class="input-right">
+                    <input type="text" name="username-signInForm" id="username-signInForm" placeholder="Username" required>
+                </div>
+            </div>
+
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-pass.png" class="icon">
+                </div>
+                <div class="input-right">
+                    <input type="Password" name="useremail-signInForm" id="useremail-signInForm" placeholder="Password" required>
+                </div>
+            </div>
+
+
+            <input type="checkbox" class="checkbox" name="remember-signInForm" id="remember-signInForm">
+            <label for="remember" class="remember">
+                <div class="checkbox-div">
+                    <div class="checkbox-inner">
+                    </div>
+                </div>
+                Remember me
+            </label>
+                <button type="submit" class="btn-small btn-right">Sign up</button>
+
+
+        </form>
+    </div>
+</div>
+
+
+<!--     Recovery Form   -->
+
+
+<div class="form-box">
+    <h1>Recover Form</h1>
+    <div class="form-border">
+        <form>
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-mail.png" class="icon">
+                </div>
+                <div class="input-right">
+                    <input type="text" name="email-recovery" id="email-recovery" placeholder="Enter your Email" required>
+                </div>
+            </div>
+
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-tel.png" class="icon">
+                </div>
+                <div class="input-right">
+                    <input type="text" name="phone-recovery" id="phone-recovery" placeholder="Enter your Phone number" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-small">Send</button>
+            <button type="submit" class="btn-small btn-right btn-lightgreen">Done</button>
+
+        </form>
+    </div>
+</div>
+
+
+<!--     Subscribe Form   -->
+
+
+<div class="form-box">
+    <h1>Subscribe Form</h1>
+    <div class="form-border">
+        <form>
+            <div class="input-text line">
+                <div class="input-left">
+                    <img src="img/icon-mail.png" class="icon">
+                </div>
+                <div class="input-right">
+                    <input type="text" name="email-subscribe" id="email-subscribe" placeholder="Enter your Email" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-small">Subscribe</button>
+            <button type="submit" class="btn-small btn-right btn-red">No, Thanks</button>
+
+        </form>
+    </div>
+    <img src="img/logo-bottom.png" class="logo logo-bottom">
+</div>
+</div>
+
+</div>
+</body>
+</html>
+
