@@ -280,13 +280,13 @@ button:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 470px) {
     .form-box {
-    margin: 10px 17px 30px 17px;
+    margin: 10px 35px 30px 35px;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
   .btn-small {
     float: none;
     width: 100%
