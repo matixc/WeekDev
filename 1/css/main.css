@@ -38,7 +38,7 @@ body {
 }
 
 .form-box {
-  max-width: 420px;
+  max-width: 380px;
   margin: 10px auto 30px auto;
   color: rgb(255,255,255);
 }
@@ -49,19 +49,26 @@ h1 {
   text-shadow: 2px 3px 3px rgba(30, 30, 30, 0.8);
 }
 
-.form-border {
-  box-sizing: border-box;
-  border: 20px solid rgba(0,0,0,0.23);
-  border-radius: 5px;
-  position: relative;
-  width: 100%;
-}
-
 form {
   background-clip: padding-box;
   background-color: rgb(244, 244, 244);
   border-radius: 5px;
   padding: 20px;
+  margin: 40px 0 40px;
+  position: relative;
+}
+
+.form-border:before {
+  content: " ";
+  z-index:  -1;
+  position: absolute;
+  left: -20px;
+  right: -20px;
+  top: -20px;
+  bottom: -20px;
+  border: 20px solid rgba(0,0,0,0.23);
+  border-radius: 5px;
+
 }
 
 .input-text {
