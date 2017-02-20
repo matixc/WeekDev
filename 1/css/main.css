@@ -30,7 +30,7 @@ body {
   height: auto;
   margin: 40px auto 10px;
   opacity: 0.4;
-  filter: drop-shadow(-1px -2px 1px rgba(128,128,128,1));
+  filter: drop-shadow(-1px -2px 1px rgb(128,128,128));
 }
 
 .logo-bottom {
@@ -40,7 +40,7 @@ body {
 .form-box {
   max-width: 420px;
   margin: 10px auto 30px auto;
-  color: white;
+  color: rgb(0,0,0);
 }
 
 h1 {
@@ -59,7 +59,7 @@ h1 {
 
 form {
   background-clip: padding-box;
-  background-color: #f4f4f4;
+  background-color: rgb(244, 244, 244);
   border-radius: 5px;
   padding: 20px;
 }
@@ -103,10 +103,10 @@ input[type=email],
 textarea {
   height: 40px;
   width: 100%;
-  background-color: #f4f4f4;
+  background-color: rgb(244, 244, 244);
   border: none;
   border-radius: 5px;
-  color: gray;
+  color: rgb(128,128,128);
   text-indent: 20px;
   font-family: 'Titillium Web', sans-serif;
   font-size: 1em
@@ -168,7 +168,7 @@ button {
   width: 100%;
   border: solid 1px rgb(59,154,0);
   border-radius: 5px;
-  color: white;
+  color: rgb(0,0,0);
   margin-top: 10px;
   display: block;
   font-family: 'Titillium Web', sans-serif;
@@ -182,7 +182,7 @@ button {
 
 button:hover {
   opacity: 0.8;
-  color: black;
+  color: rgb(255,255,255);
 }
 
 .btn-small {
