@@ -20,46 +20,24 @@
 <div class="form-box">
     <h1>Register Form</h1>
         <form class="form-border">
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-user.png" class="icon">
-                </div>
-                <div class="input-right">
-                    <input type="text" name="nickname-register" id="nickname-register" placeholder="Username" required>
-                </div>
+            <div class="input-box line bg-user">
+                <input type="text" class="input-text" name="nickname-register" id="nickname-register" placeholder="Username" required>
             </div>
 
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-pass.png" class="icon">
-                </div>
-                <div class="input-right">
-                    <input type="password" name="password-register" id="password-register" placeholder="Password" required>
-                </div>
+            <div class="input-box line bg-pass">
+                <input type="password" class="input-text" name="password-register" id="password-register" placeholder="Password" required>
             </div>
-            <div class="input-text line">
-                <div class="input-left">
-                  <img src="img/icon-pass.png" class="icon">
-               </div>
-                <div class="input-right">
-                    <input type="password" name="password2-register" id="password2-register" placeholder="Confirm Password" required>
-                </div>
+
+            <div class="input-box line bg-pass">
+                <input type="password" class="input-text" name="password2-register" id="password2-register" placeholder="Confirm Password" required>
             </div>
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-mail.png" class="icon">
-                </div>
-                <div class="input-right">
-                     <input type="email" name="email-register" id="email-register" placeholder="Email" required>
-                </div>
+
+            <div class="input-box line bg-mail">
+                <input type="email" class="input-text" name="email-register" id="email-register" placeholder="Email" required>
             </div>
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-location.png" class="icon">
-                </div>
-                <div class="input-right">
-                     <input type="text" name="location-register" id="location-register" placeholder="Your Location">
-                </div>
+
+            <div class="input-box line bg-location">
+                <input type="text" class="input-text" name="location-register" id="location-register" placeholder="Your Location">
             </div>
 
             <input type="checkbox" class="checkbox" name="read-register" id="read-register">
@@ -81,28 +59,16 @@
 <div class="form-box">
     <h1>Send Email</h1>
         <form class="form-border">
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-user.png" class="icon">
-                </div>
-                <div class="input-right">
-                    <input type="text" name="name-sendEmail" id="name-sendEmail" placeholder="Username" required>
-                </div>
+            <div class="input-box line bg-user">
+                <input type="text" class="input-text" name="name-sendEmail" id="name-sendEmail" placeholder="Username" required>
             </div>
 
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-mail.png" class="icon">
-                </div>
-                <div class="input-right">
-                     <input type="Email" name="email-sendemail" id="email-sendEmail" placeholder="Email" required>
-                </div>
+            <div class="input-box line bg-mail">
+                <input type="Email" class="input-text" name="email-sendemail" id="email-sendEmail" placeholder="Email" required>
             </div>
 
-            <div class="input-text input-text-big">
-
-                     <textarea class="input-text-big" name="message-sendemail" id="message-sendEmail" placeholder="Type yout message ..." required></textarea>
-
+            <div class="input-box input-text-big">
+                     <textarea class="input-text input-text-big" name="message-sendemail" id="message-sendEmail" placeholder="Type yout message ..." required></textarea>
             </div>
 
             <input type="checkbox" class="checkbox" name="sendCopy-sendemail" id="sendCopy-sendemail">
@@ -129,24 +95,13 @@
 <div class="form-box">
     <h1>Sign In From</h1>
         <form class="form-border">
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-user.png" class="icon">
-                </div>
-                <div class="input-right">
-                    <input type="text" name="username-signInForm" id="username-signInForm" placeholder="Username" required>
-                </div>
+            <div class="input-box line bg-user">
+                <input type="text" class="input-text" name="username-signInForm" id="username-signInForm" placeholder="Username" required>
             </div>
 
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-pass.png" class="icon">
-                </div>
-                <div class="input-right">
-                    <input type="Password" name="useremail-signInForm" id="useremail-signInForm" placeholder="Password" required>
-                </div>
+            <div class="input-box line bg-pass">
+                <input type="Password" class="input-text" name="useremail-signInForm" id="useremail-signInForm" placeholder="Password" required>
             </div>
-
 
             <input type="checkbox" class="checkbox" name="remember-signInForm" id="remember-signInForm">
             <label for="remember-signInForm" class="remember">
@@ -170,22 +125,12 @@
 <div class="form-box">
     <h1>Recover Form</h1>
         <form class="form-border">
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-mail.png" class="icon">
-                </div>
-                <div class="input-right">
-                    <input type="text" name="email-recovery" id="email-recovery" placeholder="Enter your Email" required>
-                </div>
+            <div class="input-box line bg-mail">
+                <input type="text" class="input-text" name="email-recovery" id="email-recovery" placeholder="Enter your Email" required>
             </div>
 
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-tel.png" class="icon">
-                </div>
-                <div class="input-right">
-                    <input type="text" name="phone-recovery" id="phone-recovery" placeholder="Enter your Phone number" required>
-                </div>
+            <div class="input-box line bg-tel">
+                <input type="text" class="input-text" name="phone-recovery" id="phone-recovery" placeholder="Enter your Phone number" required>
             </div>
 
             <button type="submit" class="btn-small">Send</button>
@@ -203,13 +148,8 @@
     <h1>Subscribe Form</h1>
 
         <form class="form-border">
-            <div class="input-text line">
-                <div class="input-left">
-                    <img src="img/icon-mail.png" class="icon">
-                </div>
-                <div class="input-right">
-                    <input type="text" name="email-subscribe" id="email-subscribe" placeholder="Enter your Email" required>
-                </div>
+            <div class="input-box line bg-mail">
+                <input type="text" class="input-text" name="email-subscribe" id="email-subscribe" placeholder="Enter your Email" required>
             </div>
 
             <button type="submit" class="btn-small">Subscribe</button>

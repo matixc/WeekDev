@@ -68,32 +68,53 @@ form {
   bottom: -20px;
   border: 20px solid rgba(0,0,0,0.23);
   border-radius: 5px;
-
 }
 
-.input-text {
+.input-box {
   position: relative;
-  padding: 2px;
+  padding: 1px;
   margin-bottom: 20px;
   border: solid 1px rgb(198,198,198);
   border-radius: 5px;
 }
 
-.input-left {
-  width: 62px;
-  height: 36px;
-  float: left;
+.bg-user {
+  background: url(../img/icon-user.png) no-repeat;
+  background-position: 18px 5px;
 }
 
-.input-right {
-  margin-left: 62px;
-
+.bg-pass {
+  background: url(../img/icon-pass.png) no-repeat;
+  background-position: 18px 4px;
 }
 
-.icon {
-  position: absolute;
-  top: 5px;
-  left: 18px;
+.bg-mail {
+  background: url(../img/icon-mail.png) no-repeat;
+  background-position: 18px 3px;
+}
+
+.bg-location {
+  background: url(../img/icon-location.png) no-repeat;
+  background-position: 18px 5px;
+}
+
+.bg-tel {
+  background: url(../img/icon-tel.png) no-repeat;
+  background-position: 18px 4px;
+}
+
+.input-text {
+  box-sizing: border-box;
+  padding-left: 60px;
+  height: 38px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  color: rgb(128,128,128);
+  text-indent: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 1em
 }
 
 .line::after {
@@ -105,11 +126,12 @@ form {
   top: 13%;
 }
 
+/*
 input[type=text],
 input[type=password],
 input[type=email],
 textarea {
-  height: 36px;
+  height: 38px;
   width: 100%;
   background-color: rgb(244, 244, 244);
   border: none;
@@ -119,7 +141,7 @@ textarea {
   font-family: 'Titillium Web', sans-serif;
   font-size: 1em
 }
-
+*/
 .input-text-big > textarea {
   height: 230px;
   vertical-align: top;
